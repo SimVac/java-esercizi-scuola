@@ -1,4 +1,12 @@
 public class Main {
+    /**
+     * Ricerca un certo numero all'interno di un vettore
+     * @param v Vettore in cui cercare il numero
+     * @param valore Numero da ricercare
+     * @param i Posizione iniziale del vettore
+     * @param f Posizione finale del vettore
+     * @return true se è stato trovato il numero, false altrimenti
+     */
     public static boolean ricerca(int[] v, int valore, int i, int f){
         if (v[i] == valore)
             return true;
