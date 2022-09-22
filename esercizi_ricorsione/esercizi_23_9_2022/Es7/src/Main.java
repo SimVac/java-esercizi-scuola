@@ -1,4 +1,10 @@
 public class Main {
+    /**
+     * Funzione che calcola la somma dei posti dispari di un vettore
+     * @param v Vettore di cui calcolare la somma
+     * @param n Dimensione del vettore
+     * @return Somma dei posti dispari del vettore
+     */
     public static int sommaDispari(int[] v, int n){
         if (n < 1)
             return 0;
