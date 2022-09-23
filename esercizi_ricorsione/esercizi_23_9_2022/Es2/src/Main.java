@@ -1,4 +1,11 @@
 public class Main {
+    /**
+     * Funzione che calcola la somma dei numeri contenuti in un vettore
+     * @param v Vettore di cui calcolare la somma
+     * @param i Posizione iniziale del vettore
+     * @param f Posizione finale del vettore
+     * @return La somma dei numeri contenuti nel vettore
+     */
     public static int sommaRicorsiva(int[] v, int i, int f){
         if (i == f)
             return v[i];
