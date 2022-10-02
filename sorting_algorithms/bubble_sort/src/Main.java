@@ -37,7 +37,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         int[] v = new int[DIM];
         inizializzaVettore(v, DIM);
         System.out.println("Vettore non ordinato:");
